@@ -286,4 +286,5 @@ if __name__ == '__main__':
     print("- static/models/scaler.pkl")
     print("\nIf these files don't exist, train the model using phishing_detection_elm.ipynb")
     
-    app.run(debug=True) 
+
+    app.run(host="0.0.0.0", port=5000, debug=True)
